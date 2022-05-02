@@ -4,16 +4,19 @@ import './Login.css'
 
 const Register = () => {
   return (
+    <div className="div">
     <div class="login-page">
         <div class="form">
-            <form class="register-form">
-                <input type="text" placeholder="name"/>
-                <input type="password" placeholder="password"/>
-                <input type="text" placeholder="email address"/>
+            <form class="login-form">
+                <input type="text" placeholder="Name"/>
+                <input type="text" placeholder="Surname"/>
+                <input type="text" placeholder="Email address"/> 
+                <input type="password" placeholder="Password"/>
                 <button>create</button>
                 <p class="message">Already registered? <Link to='/login'>Sign In</Link></p>
              </form>
         </div>
+    </div>
     </div>
   );
 }

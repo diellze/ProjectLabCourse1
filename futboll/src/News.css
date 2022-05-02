@@ -1,0 +1,40 @@
+.thumb{
+	width: 100%;
+}
+.main-news{
+	margin-top: 20px;
+    align: right;
+}
+.main-news h3{
+	line-height: 0.75;
+}
+.main-news h3 a{
+	font-size: 17px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.image{
+	overflow: hidden;
+}
+.image-sm{
+	max-height: 180px;
+}
+.image-sm img{
+	height: 180px;
+}
+.image-xs{
+	max-height: 140px;
+}
+.image-xxs{
+	max-height: 100px;
+}
+.image img{
+	object-fit: cover;
+}
+.font-large{
+	font-size: 0.9em!important;
+	font-weight: 600!important;
+}
+
+
+
