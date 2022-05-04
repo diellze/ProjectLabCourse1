@@ -5,7 +5,6 @@ import Navbar from './Navbar';
 import News from './News';
 import Footer from './Footer';
 
-
 function App() {
   return (
     <div>

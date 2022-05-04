@@ -14,13 +14,13 @@ li{
     display: inline;
     font-weight: bold;
     padding-left: 5mm;
-    color: #93c1f5;
+    color: #61a53d;
     font-size: 18px;
 }
 
 li a{
     text-decoration: none;
-    color: #93c1f5;
+    color: #61a53d;
 }
 
 .container2{
@@ -81,7 +81,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #93c1f5;
+    background-color: #61a53d;
 }
 
 .field{
@@ -112,7 +112,7 @@ h2:after{
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    background-color: #93c1f5;
+    background-color: #61a53d;
     cursor: pointer;
     outline: none;
     border: none;
@@ -120,7 +120,7 @@ h2:after{
     transition: .3s;
 }
 .btn:hover{
-    background-color: #4895ec;
+    background-color: #326616;
 }
 
 @media screen and (max-width:880px) {
