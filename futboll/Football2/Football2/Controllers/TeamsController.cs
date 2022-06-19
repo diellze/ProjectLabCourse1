@@ -27,14 +27,7 @@ namespace Football2.Controllers
         {
             return await _context.Teams.ToListAsync();
         }
-       /* public async Task<ActionResult<IEnumerable<Teams>>> GetTeams()
-        {
-          if (_context.Teams == null)
-          {
-              return NotFound();
-          }
-            return await _context.Teams.ToListAsync();
-        }*/
+       
 
         // GET: api/Teams/5
         [HttpGet("{id}")]

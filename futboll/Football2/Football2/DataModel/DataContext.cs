@@ -11,8 +11,8 @@ namespace Football2.DataModel
         public DbSet<Users> Users { get; set; }
         public DbSet<News> News { get; set; }
         public DbSet<Transfers> Transfers { get; set; }
-
         public DbSet<Teams> Teams { get; set; }
+        public DbSet<Matches> Matches { get; set; }
 
     }
 }
