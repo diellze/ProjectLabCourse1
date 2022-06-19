@@ -8,7 +8,8 @@ const Footer = () => {
       <div className="container1">
         <div className="row">
           <div className="footer-col">
-            <h4>Company</h4>
+            <h4>MyFootball</h4>
+
             <ul>
               <li><a href="">About Us</a></li>
               <li><a href="">Our Services</a></li>
@@ -20,7 +21,7 @@ const Footer = () => {
             <h4> Get Help</h4>
             <ul>
               <li><a href=""> Terms and Conditions</a></li>
-              <li><a href=""> Contact Us</a></li>
+              <li><Link to='/aboutus'>About Us</Link></li>
             </ul>
           </div>
 

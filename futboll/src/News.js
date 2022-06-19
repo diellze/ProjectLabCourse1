@@ -8,7 +8,9 @@ const News = () => {
 
 
         <section className="container main-news section">
+            <div align="left " className="col-sm-12 col-md-6 col-xs-12 col-lg-6">
             <div className="row1">
+            
                 <div className="col-sm-12 col-md-6 col-xs-12 col-lg-6">
                     <img src={Img1} alt=""/>
                     <h3>
@@ -17,6 +19,7 @@ const News = () => {
                         </a>
                     </h3>
                 </div>
+             </div>
                 <div align="left " className="col-sm-12 col-md-6 col-xs-12 col-lg-6">
                     <div className="row1">
                         <div className="col-md-6 col-sm-12 col-xs-12 col-lg-6">
