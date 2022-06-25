@@ -55,13 +55,13 @@ li a{
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
-.left{
+.left1{
     height: 100%;
     background: url() no-repeat center;
     background-size: cover;
 }
 
-.right{
+.right1{
     padding: 25px 40px;
 }
 
@@ -81,7 +81,6 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #61a53d;
 }
 
 .field{
@@ -128,7 +127,7 @@ h2:after{
         grid-template-columns: 1fr;
     }
 
-    .left{
+    .left1{
         height: 200px;
     }
     
