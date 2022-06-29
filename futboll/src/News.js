@@ -8,23 +8,7 @@ const News = () => {
     return (
         <>
            
-             <section className="banner" >
-            <div class = "banner-main-content">
-                <h2 className="h2">GET THE WORLD'S LATEST FOOTBALL NEWS</h2>
-                
-
-                <div class = "current-news-head">
-                    <h3>Apple Glasses: What we expect, what we think we are <span>by scott stein</span></h3>
-
-                    <h3>What's it's like to have Elon Musk's old phone number <span>by abrar al-heeti</span></h3>
-
-                    <h3>Watch the exact moment Chris Pratt accidentally deletes 51, 000 emials <span>by goel fashingbauer</span></h3>
-
-                    <h3>Richard Branson's Virgin Orbit will launch a rocket from midair Sunday <span>by eric mack</span></h3>
-                </div>
-            </div>
-
-            </section>
+            
         
         <main>
 
@@ -71,7 +55,7 @@ const News = () => {
                 <h2>Latest Stories</h2>
                 
                 <article>
-                    <h4>just in </h4>
+                    <h4>Mbappe in Real Madrid? </h4>
                     <div>
                         <h2>Here's how to track your stimulus check with the IRS Get My Payment Portal</h2>
 

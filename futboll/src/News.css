@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" );
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --heading: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+}
+
+
 /* banner */
 
 .banner{
@@ -6,7 +24,7 @@
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    padding: 30px 0;
+    padding: 3px 0;
     margin-top: 8px;
 }
 
@@ -21,7 +39,7 @@
 }
 
 .banner-main-content h3{
-    padding: 1rem 0;
+    padding: 6px 0;
 }
 
 .banner-main-content button{
@@ -49,13 +67,14 @@
 
 .current-news-head{
     background: #fff;
-    padding: 20px;
+    padding: 2px;
     font-size: 12px;
     margin: 20px 0;
 }
 
 .current-news-head h3{
-    padding: 6px;
+    padding: 2px;
+    font-family: 'Raleway', 'sanserif';
     cursor: pointer;
     position: relative;
 }

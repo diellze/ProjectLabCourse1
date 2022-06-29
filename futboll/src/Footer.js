@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Footer.css'
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 const Footer = () => {
     return (
-    <footer className="footer">
-      <div className="container1">
-        <div className="row">
-          <div className="footer-col">
+    <footer class="footer">
+      <div class="container1">
+        <div class="row">
+          <div class="footer-col">
             <h4>MyFootball</h4>
 
             <ul>
@@ -17,7 +19,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="footer-col">
+          <div class="footer-col">
             <h4> Get Help</h4>
             <ul>
               <li><a href=""> Terms and Conditions</a></li>
@@ -25,10 +27,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="footer-col">
+          <div class="footer-col">
             <h4> Follow Us</h4>
-            <div className="social-links">
-              <a href="#"><i className="fab fa-facebook"></i> </a>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i> </a>
             </div>
           </div>
 

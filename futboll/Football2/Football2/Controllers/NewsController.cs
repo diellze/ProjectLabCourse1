@@ -24,6 +24,8 @@ namespace Football2.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<News>>> Get()
         {
+            List<News> news = new List<News>();
+            News.news = news;
             return await _context.News.ToListAsync();
         }
 
